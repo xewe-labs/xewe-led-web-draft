@@ -1,3 +1,5 @@
+> Archived. Part of the XeWe LED family; see https://github.com/xewe-labs/xewe-led-os.
+
 ![logo](https://github.com/user-attachments/assets/db8cac1d-6cd5-49cf-8b4a-c0d7abeebb8f)
 
 # XeWe LED - Web — control an ESP32 LED strip from any browser
@@ -14,7 +16,7 @@ server also generates a QR code linking to itself for easy access from a phone. 
 deployed to Google Cloud Run (`us-west1`), so the lights can be controlled from anywhere the page loads.
 
 A second iteration of the interface — multi-device, iro.js color sliders, per-device state API — lives in the private
-repo [`xewe-labs/xewe-led-web-ui`](https://github.com/xewe-labs/xewe-led-web-ui).
+repo [`xewe-labs/led-web-ui`](https://github.com/xewe-labs/led-web-ui).
 
 ## Highlights
 
@@ -147,6 +149,6 @@ Cloud Run) before deploying. The API has no authentication — anyone with the U
 
 - [Final progress report — cover page](doc/report.png) ("LED Lights Controller via Web", December 2, 2024)
 - Demo video: [static/media/resources/IMG_1993_optimized.mp4](static/media/resources/IMG_1993_optimized.mp4)
-- Second iteration of the web UI (private): [xewe-labs/xewe-led-web-ui](https://github.com/xewe-labs/xewe-led-web-ui)
+- Second iteration of the web UI (private): [xewe-labs/led-web-ui](https://github.com/xewe-labs/led-web-ui)
 - Related: [XeWe LED OS](https://maxdokukin.com/projects/xewe-led-os) — ESP32 firmware for addressable LEDs with a local web interface ([xewe-labs/xewe-led-os](https://github.com/xewe-labs/xewe-led-os))
 - Project page: [maxdokukin.com/projects/xewe-led-web-draft](https://maxdokukin.com/projects/xewe-led-web-draft)
